@@ -4,6 +4,8 @@ def my_select(collection)
  
  while i < collection.length 
   array << yield(collection[i])
+    if collection[i] == true 
+    end 
   i = i + 1 
 end 
 end
